@@ -19,3 +19,5 @@ This project implements a hybrid movie recommendation system that combines colla
 
 ## Installation
 1. Clone this repository:
+   https://github.com/Priyanshsarvaiya/Movie-Recommendation-System.git
+   cd Movie-Recommendation-System
