@@ -18,6 +18,8 @@ This project implements a hybrid movie recommendation system that combines colla
 - xgboost
 
 ## Installation
-1. Clone this repository:
-   https://github.com/Priyanshsarvaiya/Movie-Recommendation-System.git
-   cd Movie-Recommendation-System
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/personal-finance-tracker.git
+   cd personal-finance-tracker
