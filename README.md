@@ -1,12 +1,21 @@
-# Movie-Recommendation-System
-This project is a comprehensive movie recommendation system. It leverages both content-based and collaborative filtering techniques to provide personalized movie recommendations. The system integrates data from IMDb and The Movie Database (TMDb) and uses a SQLite database for efficient data storage and retrieval.  
+# Movie Recommendation System
 
-#Features
+## Description
+This project implements a hybrid movie recommendation system that combines collaborative filtering, content-based filtering, and popularity metrics. It uses machine learning models to predict user preferences and provides personalized movie recommendations based on a given movie title.
 
-Content-Based Filtering: Recommends movies based on their content (e.g., plot summaries).
+## Features
+- Multiple machine learning models for prediction (Random Forest, Gradient Boosting, SVM, KNN, Naive Bayes, XGBoost)
+- Cosine similarity for content-based filtering
+- Popularity score based on average ratings and number of votes
+- Weighted recommendation score combining prediction, similarity, and popularity
+- Customizable weighting for different recommendation factors
 
-Collaborative Filtering: Recommends movies based on user behavior and preferences.
+## Requirements
+- Python 3.7+
+- pandas
+- numpy
+- scikit-learn
+- xgboost
 
-Hybrid Recommendation System: Combines content-based and collaborative filtering for more accurate recommendations.
-
-Integration with IMDb and TMDb: Fetches and combines movie data from both sources.
+## Installation
+1. Clone this repository:
